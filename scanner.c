@@ -362,6 +362,6 @@ int main(int argc, char const *argv[])
 	}
 
 	time_t end = clock();
-	printf("\n[*] Done: Scanned in %f seconds\n", 100 * (double)(end - start)/CLOCKS_PER_SEC);
+	printf("\n[*] Done: Scanned in %f seconds\n", (double)(end - start)/CLOCKS_PER_SEC);
 	return 0;
 }
